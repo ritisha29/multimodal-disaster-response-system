@@ -1,0 +1,19 @@
+===================================================================================
+                 k-NEAREST NEIGHBORS (k-NN, k=5) PERFORMANCE SCORES              
+===================================================================================
+Representation / Modality      | Accuracy  | Precision | Recall    | F1-Score 
+-------------------------------------------------------------------------------------
+k-NN (Text Features)           | 0.8618    | 0.8851    | 0.9126    | 0.8987   
+k-NN (Image Features)          | 0.8462    | 0.8781    | 0.8951    | 0.8865   
+k-NN (Multimodal Joint)        | 0.9120    | 0.9258    | 0.9447    | 0.9351   
+===================================================================================
+
+MULTIMODAL k-NN (k=5, metric='cosine') CLASSIFICATION REPORT:
+                 precision    recall  f1-score   support
+
+Not Informative     0.8820    0.8452    0.8632       504
+    Informative     0.9258    0.9447    0.9351      1030
+
+       accuracy                         0.9120      1534
+      macro avg     0.9039    0.8949    0.8992      1534
+   weighted avg     0.9114    0.9120    0.9115      1534

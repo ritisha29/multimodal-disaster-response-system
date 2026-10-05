@@ -1,0 +1,36 @@
+# Environment and sensitive keys
+.env
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Large archives and dataset folders (exceeds GitHub 100MB limit)
+data/
+data.zip
+models.zip
+
+# Scratch and temporary scripts
+scratch/
+
+# IDE and workspace files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
